@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+/* cal-body comes here */
+.cal-body{
+    width: 160px;
+    height:250px;
+    background-color: violet;
+    margin-right: -10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/* calculator screen styling */
+.cal-screen{
+    background-color: black;
+    font-size: 13px;
+    color: white;
+    padding: 10px 25px 1px 15px;
+    border-radius: 5px;    
+}
+#cal-operation{
+    text-align: center;
+    font-weight: bold;
+}
+#cal-typed{
+    text-align: right;
+    font-weight: bolder;
+}
+/* calculator buttons/keys styling */
+.buttons-cal-operators{
+    font-size: 30px;
+    margin-left: 10px;
+    background-color: transparent;
+    box-shadow: inset;
+    text-shadow: 0 1px;
+}
+.buttons-cal-operators:hover{
+    background-color:greenyellow;
+}
+
+.opt{
+    background-color: grey;
+    color: aqua;
+    border-color: white;
+}
+.all-clear del{
+    background-color: black;
+    color: red;
+    border-color: blueviolet;
+}
+.buttons-cal-operators{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:10px;
+    padding: 10px;
+}
+
+
+
+
+
